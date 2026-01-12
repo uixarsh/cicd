@@ -2,7 +2,9 @@ name: Python CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - feature/**
   pull_request:
 
 jobs:
